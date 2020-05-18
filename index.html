@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>NexGame</title>
+    <link rel="stylesheet" type="text/css" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
+  <body onload=writeText();>
+    <div class="topnav" id="myTopnav">
+      <a href="index.html" class="logo">NexGame</a>
+      <div class="topnav-right">
+        <a href="signup.html" class="active">Sign Up</a>
+        <a href="#download">Download</a>
+        <a href="#instructions">Setup</a>
+        <a href="#about">About</a>
+      </div>
+      <a href="javascript:void(0);" class="icon" onclick="updateNavBar()">
+        <i class="fa fa-bars"></i>
+      </a>
+      <script src="navbar.js"></script>
+    </div>
+    <div class="toplanding">
+        <h1 id="nexgame">NexGame</h1>
+        <h2 id="tagLine">The video game streaming service for <br> playing your PC Games on your Phone & Tablet</h2>
+        <button onclick="location.href='signup.html'" class="signup">Join the FREE Open Beta</button>
+        <h3 id="typedTitle"></h3>
+        <script src="write-text.js"></script>
+    </div>
+    <div class="whynexgame">
+      <h1 id="title">Why NexGame?</h1>
+      <div class="table">
+        <h1>Buy Once, Play Everywhere</h1>
+        <p>If you already have a game, you don't have to re-purchase it on NexGame. We don't sell games - we help you play the games you already own.<br><br><p>
+      </div>
+      <div class="table">
+        <h1>Any Game, Any Device</h1>
+        <p>We integrate with the most common game platforms, including Steam, Origin, Battle.net, and Epic Games. You can play games on these platforms across all of your devices.</p>
+      </div>
+      <div class="table">
+        <h1>PC Performance on Mobile</h1>
+        <p>Play your favorite PC games on your phone or tablet at 1080p, 60fps.<br><br><br><br></p>
+      </div>
+    </div>
+    <div class="howdoesitwork">
+      <h1>How does NexGame work?</h1>
+      <div class="textwithimage">
+        <h2>Direct Video Game Streaming</h2>
+        <p>NexGame streams games from your computer to your mobile device. This means that you can play your favorite PC games wherever you have an internet connection.</p>
+      </div>
+      <div class="textwithimage">
+        <img src="img/howitworks.gif"></img>
+      </div>
+      <br><br>
+      <button onclick="location.href='signup.html'" class="signup">Join the FREE Open Beta</button><br><br><br>
+    </div>
+  </body>
+</html>

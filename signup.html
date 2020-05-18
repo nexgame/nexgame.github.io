@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Register</title>
+    <link rel="stylesheet" type="text/css" href="signup.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
+  <body>
+    <div class="topnav" id="myTopnav">
+      <a href="index.html" class="logo">NexGame</a>
+      <div class="topnav-right">
+        <a href="#register" class="active">Sign Up</a>
+        <a href="#download">Download</a>
+        <a href="#instructions">Setup</a>
+        <a href="#about">About</a>
+      </div>
+      <a href="javascript:void(0);" class="icon" onclick="updateNavBar()">
+        <i class="fa fa-bars"></i>
+      </a>
+      <script src="navbar.js"></script>
+    </div>
+    <div class="register">
+      <h1>NexGame</h1>
+      <h2>Open Beta Registration</h2>
+      <label for="firstname"><b>First Name</b></label><br>
+      <input type="text" id="firstname" name="firstname" placeholder="First" required minlen="2" maxlen="32"><br>
+      <label for="lastname"><b>Last Name</b></label><br>
+      <input type="text" id="lastname" name="lastname" placeholder="Last" required minlen="2" maxlen="32"><br>
+      <label for="username"><b>Username</b></label><br>
+      <input type="text" id="username" name="username" placeholder="Username" required minlen="2" maxlen="24"><br>
+      <label for="email"><b>Email</b></label><br>
+      <input type="email" id="email" name="email" placeholder="email@domain.com" required minlen="6" maxlen="64"><br>
+      <label for="date"><b>Date of Birth</b></label><br>
+      <input type="date" id="birthday" name="birthday" required><br>
+      <label for="password"><b>Password</b></label><br>
+      <input type="password" id="password" name="password" placeholder="Password" required minlen="8" maxlen="32"><br>
+      <label for="verifypw"><b>Verify Password</b></label><br>
+      <input type="password" id="verifypw" name="verifypw" placeholder="Verify password" required minlen="8" maxlen="32"><br>
+      <label for="username"><b>Country</b></label><br>
+      <input type="text" id="country" name="country" placeholder="USA" required minlen="1" maxlen="24"><br><br>
+      <button onclick="location.href='signup.html'" class="submit">Register</button><br>
+      <p>By registering for NexGame, you agree to our Terms & Conditions</p>
+    </div>
+  </body>
+</html>

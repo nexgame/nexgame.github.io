@@ -1,0 +1,203 @@
+@import url('https://fonts.googleapis.com/css?family=Audiowide&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Space+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Quantico&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Space+Mono&display=swap');
+
+
+body {
+  background-color: LightGrey;
+}
+
+.textwithimage {
+  width: 40%;
+  padding: 0% 2%;
+  display: inline-block;
+  vertical-align: top;
+  margin: 1%;
+}
+
+.howdoesitwork {
+  background-color: ghostwhite;
+  text-align: center;
+  vertical-align: top;
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.howdoesitwork p {
+  color: black;
+  font-family: Space Mono;
+  font-size: 1.5vw;
+  text-align: center;
+  width: 80%;
+  margin: auto;
+}
+
+.howdoesitwork h1 {
+  color: black;
+  font-family: Quantico;
+  font-size: 5vw;
+}
+
+.howdoesitwork h2 {
+  color: black;
+  font-family: Quantico;
+  font-size: 2vw;
+}
+
+.howdoesitwork img {
+  width: 100%;
+}
+
+.signup {
+  border: none;
+  background-color: #33ff33;
+  font-family: Quantico;
+  color: black;
+  border-radius: 20px;
+  font-size: 2vw;
+  padding: 1% 2%;
+}
+
+.signup:hover {
+  background-color: grey;
+  color: #33ff33;
+}
+
+.whynexgame {
+  text-align: center;
+  vertical-align: top;
+  background-color: LightGrey;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
+.whynexgame h1 {
+  color: black;
+  font-family: Quantico;
+  font-size: 5vw;
+}
+
+.whynexgame p {
+  color: black;
+  font-family: Space Mono;
+  font-size: 1.1vw;
+  text-align: center;
+}
+
+.table {
+  width: 27%;
+  padding: 0% 2%;
+  display: inline-block;
+  vertical-align: top;
+  background-color: #66ff66;
+  border-radius: 20px;
+  margin: 1%;
+}
+
+.table h1 {
+  font-size: 2vw;
+}
+
+.toplanding {
+  text-align: center;
+  background-color: LightGrey;
+  background-image: url("img/gaming-on-phone-grey.jpg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+  vertical-align: top;
+  display: inline-block;
+}
+
+.toplanding h1 {
+  padding-top: 3%;
+  color: #33ff33;
+  font-family: Audiowide;
+  font-size: 5vw;
+}
+
+.toplanding h2 {
+  color: white;
+  font-family: Quantico;
+  font-size: 3vw;
+}
+
+.toplanding h3 {
+  color: white;
+  font-family: Quantico;
+  font-size: 2vw;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: black;
+  width: 100%;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.logo {
+  color: #00ff00;
+  font-family: Audiowide;
+  font-size:26px;
+  padding: 8px 20px;
+}
+
+.topnav a.active {
+  background-color: #33ff33;
+  color: black;
+}
+
+.topnav a.active:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav .icon {
+  display: none;
+}
+
+@media screen and (max-width: 600px) {
+  .topnav a:not(:first-child) {display: none;}
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .topnav {position: relative;}
+  .topnavresponsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+}
+
+.topnav-right {
+  float: right;
+}
