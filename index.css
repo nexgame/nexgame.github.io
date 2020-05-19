@@ -37,6 +37,13 @@ body {
   margin: auto;
 }
 
+.howdoesitwork h5 {
+  color: black;
+  font-family: Space Mono;
+  font-size: 0.5vw;
+  text-align: center;
+}
+
 .howdoesitwork h1 {
   color: black;
   font-family: Quantico;
@@ -125,7 +132,7 @@ body {
 
 .toplanding {
   text-align: center;
-  background-color: DarkGrey;
+  background-color: black;
   background-image: url("img/gaming-on-phone-grey-comp.jpg");
   background-size: 100%;
   background-repeat: no-repeat;
