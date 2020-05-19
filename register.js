@@ -26,7 +26,6 @@ function sendRegisterRequest(){
   // Send POST request
   var xhr = new XMLHttpRequest();
   var url = "https://nexgame.hopto.org:58443/api/register";
-  xhr.open("POST", url, true);
   xhr.setRequestHeader("Content-Type", "application/json");
   xhr.onreadystatechange = function () {
       if (xhr.readyState === 4 && xhr.status === 200) {
@@ -54,6 +53,7 @@ function sendRegisterRequest(){
         alert(xhr.status);
       }
   };
+  xhr.open("POST", url, true);
   var data = JSON.stringify(payload);
   xhr.send(data);
 }
