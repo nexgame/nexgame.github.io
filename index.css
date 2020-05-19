@@ -2,10 +2,11 @@
 @import url('https://fonts.googleapis.com/css?family=Space+Mono&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Quantico&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Space+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Exo+2&display=swap');
 
 
 body {
-  background-color: LightGrey;
+  background-color: black;
 }
 
 .textwithimage {
@@ -17,12 +18,14 @@ body {
 }
 
 .howdoesitwork {
-  background-color: ghostwhite;
+  background-image: url("img/laptop and phone-comp.jpeg");
   text-align: center;
+  display: inline-block;
   vertical-align: top;
-  display: block;
   width: 100%;
   height: 100%;
+  background-size: 100%;
+  background-repeat: no-repeat;
 }
 
 .howdoesitwork p {
@@ -30,7 +33,7 @@ body {
   font-family: Space Mono;
   font-size: 1.5vw;
   text-align: center;
-  width: 80%;
+  width: 70%;
   margin: auto;
 }
 
@@ -38,6 +41,7 @@ body {
   color: black;
   font-family: Quantico;
   font-size: 5vw;
+  line-height: 10%;
 }
 
 .howdoesitwork h2 {
@@ -46,8 +50,20 @@ body {
   font-size: 2vw;
 }
 
-.howdoesitwork img {
-  width: 100%;
+.howdoesitwork button {
+  border: none;
+  background-color: #33ff33;
+  font-family: Quantico;
+  color: black;
+  border-radius: 20px;
+  font-size: 1.5vw;
+  padding: 2% 3%;
+  margin-top: 5%;
+}
+
+.howdoesitwork button:hover {
+  background-color: grey;
+  color: #33ff33;
 }
 
 .signup {
@@ -66,41 +82,45 @@ body {
 }
 
 .whynexgame {
+  background-image: url("img/keyboard-comp.jpg");
   text-align: center;
   vertical-align: top;
-  background-color: LightGrey;
   background-size: 100%;
   background-repeat: no-repeat;
   width: 100%;
   height: 100%;
-  display: block;
+  display: inline-block;
+  vertical-align: top;
+  margin-bottom: 1px;
 }
 
 .whynexgame h1 {
-  color: black;
+  color: white;
   font-family: Quantico;
   font-size: 5vw;
+  line-height: 70%;
 }
 
 .whynexgame p {
   color: black;
-  font-family: Space Mono;
-  font-size: 1.1vw;
+  font-family: 'Exo 2';
+  font-size: 2vw;
   text-align: center;
 }
 
 .table {
-  width: 27%;
-  padding: 0% 2%;
+  width: 26%;
+  padding: 0% 1%;
   display: inline-block;
   vertical-align: top;
   background-color: #66ff66;
   border-radius: 20px;
-  margin: 1%;
+  margin: 2.5%;
 }
 
-.table h1 {
-  font-size: 2vw;
+.table h2 {
+  font-size: 1.9vw;
+  font-family: Quantico;
 }
 
 .toplanding {
@@ -113,31 +133,43 @@ body {
   height: 100%;
   vertical-align: top;
   display: inline-block;
+  margin-bottom: 1px;
 }
 
 .toplanding h1 {
   padding-top: 3%;
   color: #33ff33;
   font-family: Audiowide;
-  font-size: 5vw;
+  font-size: 6vw;
+  line-height: 0%;
 }
 
 .toplanding h2 {
   color: white;
   font-family: Quantico;
-  font-size: 3vw;
+  font-size: 1.7vw;
+  line-height: 0%;
 }
 
 .toplanding h3 {
   color: white;
   font-family: Quantico;
-  font-size: 2vw;
+  font-size: 4vw;
+  padding-top: 2%;
+  padding-bottom: 3%;
+}
+
+.toplanding h4 {
+  color: white;
+  font-family: Quantico;
+  font-size: 1.7vw;
 }
 
 .topnav {
   overflow: hidden;
   background-color: black;
   width: 100%;
+  margin-bottom: 1px;
 }
 
 .topnav a {
