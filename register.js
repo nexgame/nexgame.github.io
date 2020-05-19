@@ -25,13 +25,25 @@ function sendRegisterRequest(){
   payload['dateOfBirth'] = dob;
   // Send POST request
   var url = "https://nexgame.hopto.org:58443/api/register";
-  fetch(url, {
+  const response = await fetch(url, {
     method: 'post',
     headers: {
       'Accept': 'application/json, text/plain, */*',
       'Content-Type': 'application/json'
     },
     body: JSON.stringify(payload)
-  }).then(res=>res.json())
-    .then(res => alert(res));
+  });
+  const json = await repsonse.json();
+  if (json.status === "ERROR"){
+    if (json.error === "USER EXISTS"){
+      document.getElementById("response").innerHTML = "ERROR: Username already exists.";
+      return -1;
+    }
+    if (json.error === "EMAIL EXISTS"){
+      document.getElementById("response").innerHTML = "ERROR: That email is already in use.";
+    }
+  if (json.status === "OK"){
+    document.getElementById("response").innerHTML = "SUCCESS! Welcome to NexGame.";
+    return 0;
+  }
 }
