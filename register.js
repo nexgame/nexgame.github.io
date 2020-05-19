@@ -33,6 +33,5 @@ function sendRegisterRequest(){
     },
     body: JSON.stringify(payload)
   }).then(res=>res.json())
-    .then(res => console.log(res));
-  alert(res);
+    .then(res => alert(res));
 }
