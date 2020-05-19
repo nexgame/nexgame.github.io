@@ -33,7 +33,7 @@ async function sendPostRequest(){
     },
     body: JSON.stringify(payload)
   });
-  const json = await repsonse.json();
+  const json = await response.json();
   if (json.status === "ERROR"){
     if (json.error === "USER EXISTS"){
       document.getElementById("response").innerHTML = "ERROR: Username already exists.";
