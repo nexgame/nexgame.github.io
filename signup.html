@@ -4,6 +4,7 @@
     <title>Register</title>
     <link rel="stylesheet" type="text/css" href="signup.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="register.js"></script>
   </head>
   <body>
     <div class="topnav" id="myTopnav">
@@ -30,15 +31,15 @@
       <input type="text" id="username" name="username" placeholder="Username" required minlen="2" maxlen="24"><br>
       <label for="email"><b>Email</b></label><br>
       <input type="email" id="email" name="email" placeholder="email@domain.com" required minlen="6" maxlen="64"><br>
-      <label for="date"><b>Date of Birth</b></label><br>
-      <input type="date" id="birthday" name="birthday" required><br>
+      <label for="dob"><b>Date of Birth</b></label><br>
+      <input type="dob" id="dob" name="dob" required><br>
       <label for="password"><b>Password</b></label><br>
       <input type="password" id="password" name="password" placeholder="Password" required minlen="8" maxlen="32"><br>
       <label for="verifypw"><b>Verify Password</b></label><br>
       <input type="password" id="verifypw" name="verifypw" placeholder="Verify password" required minlen="8" maxlen="32"><br>
       <label for="username"><b>Country</b></label><br>
       <input type="text" id="country" name="country" placeholder="USA" required minlen="1" maxlen="24"><br><br>
-      <button onclick="location.href='signup.html'" class="submit">Register</button><br>
+      <button onclick="sendRegisterRequest()">Register</button><br>
       <p>By registering for NexGame, you agree to our Terms & Conditions</p>
     </div>
   </body>

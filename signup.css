@@ -97,6 +97,13 @@ body {
     text-align: center;
 }
 
+.register h3 {
+    color: red;
+    font-family: Space Mono;
+    font-size: 2vh;
+    text-align: center;
+}
+
 .register p {
   color: white;
   font-family: Space Mono;
@@ -130,4 +137,9 @@ body {
   text-align: center;
   display: block;
   margin: auto;
+}
+
+.register button:hover {
+  background-color: grey;
+  color: #33ff33;
 }
