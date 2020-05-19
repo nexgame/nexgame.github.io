@@ -50,6 +50,9 @@ function sendRegisterRequest(){
             return 0;
           }
       }
+      else if (xhr.readyState === 4){
+        alert(xhr.status);
+      }
   };
   var data = JSON.stringify(payload);
   xhr.send(data);
