@@ -42,6 +42,7 @@ function sendRegisterRequest(){
     if (json.error === "EMAIL EXISTS"){
       document.getElementById("response").innerHTML = "ERROR: That email is already in use.";
     }
+  }
   if (json.status === "OK"){
     document.getElementById("response").innerHTML = "SUCCESS! Welcome to NexGame.";
     return 0;
