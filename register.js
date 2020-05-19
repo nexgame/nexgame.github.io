@@ -1,4 +1,4 @@
-function sendRegisterRequest(){
+async function sendPostRequest(){
   // Get data from form
   var firsname = document.getElementById("firstname").value;
   var lastname = document.getElementById("lastname").value;
@@ -47,4 +47,8 @@ function sendRegisterRequest(){
     document.getElementById("response").innerHTML = "SUCCESS! Welcome to NexGame.";
     return 0;
   }
+}
+
+function sendRegisterRequest(){
+  sendPostRequest();
 }
