@@ -3,13 +3,13 @@
 @import url('https://fonts.googleapis.com/css?family=Quantico&display=swap');
 
 body {
-  background-color: LightGrey;
+  background-color: Black;
 }
 
 .topnav {
   overflow: hidden;
   background-color: black;
-  width: 70%;
+  width: 100%;
   margin: auto;
 }
 
@@ -76,11 +76,14 @@ body {
 }
 
 .register {
-  width: 70%;
+  width: 100%;
   margin: auto;
   background-color: #202020;
   vertical-align: center;
   padding-top: 1px;
+  background-image: url("img/typing.jpg");
+  background-size: 100%;
+  background-repeat: no-repeat;
 }
 
 .register h1 {
@@ -104,26 +107,34 @@ body {
     text-align: center;
 }
 
+.register h4 {
+    color: white;
+    font-family: Space Mono;
+    font-size: 2vh;
+    text-align: center;
+}
+
 .register p {
   color: white;
   font-family: Space Mono;
   font-size: 0.5vw;
   text-align: center;
+  padding-bottom: 1%;
 }
 
 .register label{
   text-align: left;
-  padding: 0% 20%;
+  padding: 0% 30%;
   font-size: 2.5vh;
   font-family: Space Mono;
   color: white;
 }
 
 .register input {
-  width: 60%;
+  width: 40%;
   display: inline-block;
   font-size: 2.5vh;
-  margin: 0% 20%;
+  margin: 0% 30%;
 }
 
 .register button {
