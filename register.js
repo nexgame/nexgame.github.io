@@ -1,6 +1,6 @@
 async function sendPostRequest(){
   // Get data from form
-  var firsname = document.getElementById("firstname").value;
+  var firstname = document.getElementById("firstname").value;
   var lastname = document.getElementById("lastname").value;
   var username = document.getElementById("username").value;
   var email = document.getElementById("email").value;
@@ -14,15 +14,15 @@ async function sendPostRequest(){
     return -1;
   }
   // Make sure inputs are valid
-  if (firstname.trim().length() < 1){
+  if (firstname.trim().length < 1){
     document.getElementById("response").innerHTML = "ERROR: Please enter your first name.";
     return -1;
   }
-  if (lastname.trim().length() < 1){
+  if (lastname.trim().length < 1){
     document.getElementById("response").innerHTML = "ERROR: Please enter your last name.";
     return -1;
   }
-  if (username.trim().length() < 3){
+  if (username.trim().length < 3){
     document.getElementById("response").innerHTML = "ERROR: Your username must be at least 3 characters.";
     return -1;
   }
@@ -30,7 +30,7 @@ async function sendPostRequest(){
     document.getElementById("response").innerHTML = "ERROR: Please provide a valid email address.";
     return -1;
   }
-  if (password.trim().length() < 8){
+  if (password.trim().length < 8){
     document.getElementById("response").innerHTML = "ERROR: Your password must be at least 8 characters.";
     return -1;
   }

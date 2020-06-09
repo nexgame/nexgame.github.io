@@ -1,0 +1,20 @@
+<h2>What Is NexGame?</h2>
+<p>NexGame is a video game streaming service that lets you play PC games on your phone.</p>
+<h2>Can I Run NexGame?</h2>
+<p>NexGame is currently available for Windows and Android.</p>
+<h2>How Does NexGame Work?</h2>
+<p>NexGame creates a connection between your PC and your Mobile Device, and then launches a game on your PC.</p>
+<p>The video game session is streamed from your PC to your Mobile Device, and your inputs are streamed back from your Mobile Device to your PC.</p>
+<h2>How Do I Set Up NexGame?</h2>
+<p>NexGame has two components: NexGame Streamer and the NexGame App</p>
+<p>First, install the NexGame app on your Mobile Device. Create an account if you haven't already.</p>
+<p>Then, install NexGame Streamer on your PC and log in with your account.</p>
+<p>Now, log in on your mobile app. You should
+<h2>Is NexGame Secure?</h2>
+<p>We understand that you're trusting us to keep your devices secure, and we take that seriously.</p>
+<p>All communications between your devices and our servers are encrypted using SSL/TLS (either HTTPS, or RSA and AES).</p>
+<p>All data transmitted between your devices over connections created by NexGame are encrypted using RSA and AES.</p>
+<h2>What data does NexGame collect?</h2>
+<p>Our goal is to only collect the data we need to provide you with a good user experience.</p>
+<p>NexGame Streamer and the NexGame App sends us your device's IP Address. We use this to create a connection between your PC and Mobile Device.</p>
+<p>NexGame Streamer sends a list of the games installed on your computer to our servers. We use this to allow you to select which game to play.</p>
