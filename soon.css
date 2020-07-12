@@ -75,83 +75,48 @@ body {
   float: right;
 }
 
-.faq {
+.comingsoon {
   width: 100%;
   margin: auto;
   background-color: #0d0d0d;
   vertical-align: center;
-  padding-top: 1px;
+  padding-top: 2%;
+  text-align: center;
 }
 
-.faq h1 {
+.comingsoon h1 {
     color: #33ff33;
     font-family: Audiowide;
     font-size: 6vh;
     text-align: center;
 }
 
-.faq h2 {
+.comingsoon h2 {
     color: white;
     font-family: Space Mono;
     font-size: 4vh;
     text-align: center;
 }
 
-.faq h3 {
+.comingsoon h3 {
     color: white;
     font-family: Space Mono;
-    font-size: 2.5vh;
+    font-size: 3vh;
     text-align: center;
+    padding-bottom: 5%;
 }
 
-.faq h4 {
-    color: white;
-    font-family: Space Mono;
-    font-size: 2vh;
-    text-align: center;
-}
-
-.faq p {
-  color: white;
-  font-family: Space Mono;
-  font-size: 1vw;
-  text-align: center;
-}
-
-.faq button {
+.signup {
   border: none;
-  background-color: #0d0d0d;
+  background-color: #33ff33;
   font-family: Quantico;
-  color:  #33ff33;
-  font-size: 1.8vw;
-  text-align: left;
-  display: block;
-  // margin: auto;
+  color: black;
+  border-radius: 20px;
+  font-size: 2vw;
+  padding: 1% 2%;
 }
 
-.faq button:hover {
+.signup:hover {
   background-color: grey;
   color: #33ff33;
-}
-
-table {
-  width: 95%;
-  align-items: center;
-  padding-left: 5%;
-  padding-top: 2%;
-}
-
-td {
-  padding-bottom: 4%;
-  padding-left: 10%;
-  text-align: left;
-  width: 50%;
-}
-
-.response {
-  width: 75%;
-  padding-left: 5%;
-  display:block;
-  margin: auto;
-  text-align: center;
 }

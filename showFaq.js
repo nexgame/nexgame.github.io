@@ -22,7 +22,7 @@ function showFaq(messageValue){
       response1 = "NexGame has two components: NexGame Streamer and the NexGame App."
       response2 = "First, install the NexGame app on your Mobile Device. Create an account if you haven't already.";
       response3 = "Then, install NexGame Streamer on your PC and log in with your account.";
-      response4 = "Finally, log into the NexGame app. You should be able to select your PC and connect to it.";
+      response4 = "Finally, log into the NexGame app. You should be able to select your PC, connect to it, and launch a game.";
       break;
     case 4:
       response1 = "We know that you're trusting us with your devices. We take that seriously.";
@@ -39,7 +39,12 @@ function showFaq(messageValue){
       response1 = "NexGame's Open Beta is free because the feedback we get from you is valuable."
       response2 = "Our goal with the NexGame Open Beta is to get genuine feedback on the quality of our service."
       response3 = "We'll use this feedback to improve our product and monetize at a later date."
-      response4 = "In the future, NexGame may monetize through a monthly subscription or advertizing. However, we stand by our pledge to not sell our data."
+      response4 = "In the future, NexGame may monetize through a monthly subscription or advertizing. However, we do not sell your data."
+    case 7:
+      response1 = "If our software can launch a game on your computer, you can play it on NexGame"
+      response2 = "NexGame Streamer automatically discovers games installed on your computer at startup."
+      response3 = "We integrate with many of the most common game platforms so that you can play all of your games."
+      response4 = "Is there a game you'd like to see on NexGame? Let us know, and we'll do our best to add it!"
   }
   // Set text
   if (response1 != null){
