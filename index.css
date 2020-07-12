@@ -98,31 +98,65 @@ body {
   height: 100%;
   display: inline-block;
   vertical-align: top;
-  margin-bottom: 1px;
 }
 
 .whynexgame h1 {
   color: white;
   font-family: Quantico;
   font-size: 5vw;
+  line-height: 50%;
+}
+
+.whynexgame h2 {
+  color: #33ff33;
+  font-family: Quantico;
+  font-size: 2.1vw;
   line-height: 70%;
 }
 
 .whynexgame p {
-  color: black;
+  color: white;
   font-family: 'Exo 2';
   font-size: 2vw;
   text-align: center;
 }
 
-.table {
-  width: 26%;
+.whynexgame img.small {
+  padding: 2% 3%;
+  height: auto;
+  max-height: 15vw;
+  max-width: 25vw;
+}
+
+.whynexgame img.logo {
+  padding: 2% 2%;
+  height: auto;
+  max-height: 8vw;
+  max-width: 20vw;
+  min-height: 6vw;
+}
+
+.whynexgame img.fullsize {
+  padding: 2% 3%;
+  padding-left: 15%;
+  height: auto;
+  width: 80%;
+}
+
+.smalltable {
+  width: 38%;
   padding: 0% 1%;
   display: inline-block;
   vertical-align: top;
-  background-color: #66ff66;
-  border-radius: 20px;
-  margin: 2.5%;
+  margin: 1%;
+}
+
+.largetable {
+  width: 50%;
+  padding: 0% 1%;
+  display: inline-block;
+  vertical-align: center;
+  margin: 1%;
 }
 
 .table h2 {

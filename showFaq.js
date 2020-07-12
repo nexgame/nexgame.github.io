@@ -10,12 +10,12 @@ function showFaq(messageValue){
       break;
     case 1:
       response1 = "NexGame's Open Beta will support Windows and Android.";
-      response2 = "We recommend using NexGame on a strong Wifi connection with a speed of at least 30 Mbps.";
       response2 = "Generally, if your computer can run a game, it can be streamed on NexGame.";
+      response3 = "We recommend using NexGame on a strong Wifi connection with a speed of at least 20 Mbps.";
       break;
     case 2:
       response1 = "NexGame creates a connection between your PC and your Mobile Device.";
-      response2 = "We use this connection to stream the video game session from your PC to your Mobile Device.";
+      response2 = "We use this connection to stream a video game session from your PC to your Mobile Device.";
       response3 = "Your inputs to your Mobile Device are streamed back your PC, allowing you to play the game.";
       break;
     case 3:
@@ -26,15 +26,20 @@ function showFaq(messageValue){
       break;
     case 4:
       response1 = "We know that you're trusting us with your devices. We take that seriously.";
-      response2 = "All communications between your devices and our servers are encrypted using SSL/TLS (HTTPS, or RSA and AES).";
-      response3 = "All data transmitted between your devices over connections created by NexGame are encrypted using RSA and AES.";
+      response2 = "All communications between your devices and our servers are encrypted.";
+      response3 = "All data transmitted between your devices over connections created by NexGame are encrypted.";
       break;
     case 5:
-      response1 = "Our goal is to only collect the data we need to provide you with a good user experience.";
+      response1 = "Our goal is to only collect the data we need to provide you with a good experience.";
       response2 = "We use your IP Address to create a connection between your PC and Mobile Device.";
       response3 = "We send a list of the games installed on your computer to our servers, so that you can select which game to play.";
-      response4 = "We don't sell your data or share it with any 3rd parties.";
+      response4 = "We don't sell your data. We don't share your data with any 3rd parties without asking first.";
       break;
+    case 6:
+      response1 = "NexGame's Open Beta is free because the feedback we get from you is valuable."
+      response2 = "Our goal with the NexGame Open Beta is to get genuine feedback on the quality of our service."
+      response3 = "We'll use this feedback to improve our product and monetize at a later date."
+      response4 = "In the future, NexGame may monetize through a monthly subscription or advertizing. However, we stand by our pledge to not sell our data."
   }
   // Set text
   if (response1 != null){

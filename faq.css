@@ -3,7 +3,7 @@
 @import url('https://fonts.googleapis.com/css?family=Quantico&display=swap');
 
 body {
-  background-color: black;
+  background-color: #0d0d0d;
 }
 
 .topnav {
@@ -78,7 +78,7 @@ body {
 .faq {
   width: 100%;
   margin: auto;
-  background-color: black;
+  background-color: #0d0d0d;
   vertical-align: center;
   padding-top: 1px;
 }
@@ -120,7 +120,7 @@ body {
 
 .faq button {
   border: none;
-  background-color: black;
+  background-color: #0d0d0d;
   font-family: Quantico;
   color:  #33ff33;
   font-size: 2vw;
@@ -142,7 +142,7 @@ table {
 }
 
 td {
-  padding-bottom: 5%;
+  padding-bottom: 4%;
   padding-left: 10%;
   text-align: left;
   width: 50%;
