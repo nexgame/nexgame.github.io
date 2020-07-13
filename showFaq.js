@@ -40,11 +40,13 @@ function showFaq(messageValue){
       response2 = "Our goal with the NexGame Open Beta is to get genuine feedback on the quality of our service."
       response3 = "We'll use this feedback to improve our product and monetize at a later date."
       response4 = "In the future, NexGame may monetize through a monthly subscription or advertizing. However, we do not sell your data."
+      break;
     case 7:
       response1 = "If our software can launch a game on your computer, you can play it on NexGame"
       response2 = "NexGame Streamer automatically discovers games installed on your computer at startup."
       response3 = "We integrate with many of the most common game platforms so that you can play all of your games."
       response4 = "Is there a game you'd like to see on NexGame? Let us know, and we'll do our best to add it!"
+      break;
   }
   // Set text
   if (response1 != null){
