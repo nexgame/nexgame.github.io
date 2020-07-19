@@ -78,10 +78,9 @@ body {
 .register {
   width: 100%;
   margin: auto;
-  background-color: #202020;
+  background-color: #181818;
   vertical-align: center;
   padding-top: 1px;
-  background-image: url("img/typing.jpg");
   background-size: 100%;
   background-repeat: no-repeat;
 }
