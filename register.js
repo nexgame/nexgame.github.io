@@ -1,7 +1,5 @@
 async function sendPostRequest(){
   // Get data from form
-  var firstname = document.getElementById("firstname").value;
-  var lastname = document.getElementById("lastname").value;
   var username = document.getElementById("username").value;
   var email = document.getElementById("email").value;
   // var dob = document.getElementById("dob").value;
@@ -14,14 +12,6 @@ async function sendPostRequest(){
     return -1;
   }
   // Make sure inputs are valid
-  if (firstname.trim().length < 1){
-    document.getElementById("response").innerHTML = "ERROR: Please enter your first name.";
-    return -1;
-  }
-  if (lastname.trim().length < 1){
-    document.getElementById("response").innerHTML = "ERROR: Please enter your last name.";
-    return -1;
-  }
   if (username.trim().length < 3){
     document.getElementById("response").innerHTML = "ERROR: Your username must be at least 3 characters.";
     return -1;
@@ -39,11 +29,6 @@ async function sendPostRequest(){
   payload['username'] = username;
   payload['email'] = email;
   payload['encryptedPassword'] = password;
-  payload['firsname'] = firstname;
-  payload['lastname'] = lastname;
-  payload['gender'] = 'Q';
-  payload['country'] = 'USA';
-  payload['dateOfBirth'] = '1/22/1969';
   // Send POST request
   var url = "https://nexgame.hopto.org:58443/api/register";
   const response = await fetch(url, {

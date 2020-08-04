@@ -2,8 +2,12 @@
 @import url('https://fonts.googleapis.com/css?family=Space+Mono&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Quantico&display=swap');
 
+html {
+  height: 100%;
+}
 body {
-  background-color: Black;
+  background-color:  #181818;
+  min-height: 100%;
 }
 
 .topnav {
