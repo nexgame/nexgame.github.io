@@ -73,4 +73,15 @@ function showFaq(messageValue){
   else {
     document.getElementById("response4").innerHTML = "";
   }
+  window.scroll({left:0,top:findPos(document.getElementById("response4")),behavior:'smooth'});
+}
+
+function findPos(obj) {
+    var curtop = 0;
+    if (obj.offsetParent) {
+        do {
+            curtop += obj.offsetTop;
+        } while (obj = obj.offsetParent);
+    return [curtop];
+    }
 }
