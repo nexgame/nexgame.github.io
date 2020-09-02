@@ -7,6 +7,7 @@ function showFaq(messageValue){
   switch(messageValue){
     case 0:
       response1 = "NexGame is a video game streaming service that lets you play PC games on your mobile devices.";
+      response2 = "";
       break;
     case 1:
       response1 = "NexGame's Open Beta will support Windows and Android.";
