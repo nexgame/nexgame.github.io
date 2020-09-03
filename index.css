@@ -9,16 +9,21 @@ body {
   background-color: black;
 }
 
-.textwithimage {
-  width: 40%;
-  padding: 0% 2%;
+.leftpadding {
+  width: 47%;
+  padding: 0% 1%;
   display: inline-block;
   vertical-align: top;
-  margin: 1%;
+}
+
+.textwithimage {
+  width: 42%;
+  padding: 0% 1%;
+  display: inline-block;
+  vertical-align: top;
 }
 
 .howdoesitwork {
-  background-image: url("img/laptop and phone-comp.jpeg");
   text-align: center;
   display: inline-block;
   vertical-align: top;
@@ -26,12 +31,13 @@ body {
   height: 100%;
   background-size: 100%;
   background-repeat: no-repeat;
+  padding-bottom: 2%;
 }
 
 .howdoesitwork p {
   color: black;
   font-family: Space Mono;
-  font-size: 1.5vw;
+  font-size: 1.5vmax;
   text-align: center;
   width: 70%;
   margin: auto;
@@ -40,21 +46,21 @@ body {
 .howdoesitwork h5 {
   color: black;
   font-family: Space Mono;
-  font-size: 0.5vw;
+  font-size: 1vmax;
   text-align: center;
 }
 
 .howdoesitwork h1 {
   color: black;
   font-family: Quantico;
-  font-size: 5vw;
-  line-height: 10%;
+  font-size: 5vmax;
+  line-height: 90%;
 }
 
 .howdoesitwork h2 {
   color: black;
   font-family: Quantico;
-  font-size: 2vw;
+  font-size: 2vmax;
 }
 
 .howdoesitwork button {
@@ -63,8 +69,8 @@ body {
   font-family: Quantico;
   color: black;
   border-radius: 20px;
-  font-size: 1.5vw;
-  padding: 2% 3%;
+  font-size: 1.5vmax;
+  padding: 2.5% 3%;
   margin-top: 5%;
 }
 
@@ -89,7 +95,6 @@ body {
 }
 
 .whynexgame {
-  background-image: url("img/keyboard-comp.jpg");
   background-color: #0d0d0d;
   text-align: center;
   vertical-align: top;
@@ -104,22 +109,28 @@ body {
 .whynexgame h1 {
   color: white;
   font-family: Quantico;
-  font-size: 5vw;
-  line-height: 50%;
+  font-size: 5vmax;
+  line-height: 80%;
 }
 
 .whynexgame h2 {
   color: #33ff33;
   font-family: Quantico;
-  font-size: 2.1vw;
-  line-height: 70%;
+  font-size: 2.5vmax;
+  line-height: 90%;
+  width: 80%;
+  padding-left: 10%;
+  padding-top: 2%;
+  padding-botton: 3%;
 }
 
 .whynexgame p {
   color: white;
   font-family: 'Exo 2';
-  font-size: 2vw;
+  font-size: 2vmax;
   text-align: center;
+  width: 80%;
+  padding-left: 10%;
 }
 
 .whynexgame img.small {
@@ -127,6 +138,7 @@ body {
   height: auto;
   max-height: 15vw;
   max-width: 25vw;
+  align-self: center;
 }
 
 .whynexgame img.logo {
@@ -142,6 +154,7 @@ body {
   padding-left: 5%;
   height: auto;
   width: 80%;
+  align-self: center;
 }
 
 .smalltable {
@@ -167,12 +180,11 @@ body {
 
 .toplanding {
   text-align: center;
+  margin: auto;
   background-color: black;
-  background-image: url("img/gaming-on-phone-grey-comp.jpg");
   background-size: 100%;
   background-repeat: no-repeat;
   width: 100%;
-  height: 100%;
   vertical-align: top;
   display: inline-block;
   margin-bottom: 1px;
@@ -182,21 +194,20 @@ body {
   padding-top: 3%;
   color: #33ff33;
   font-family: Audiowide;
-  font-size: 6vw;
+  font-size: 6vmax;
   line-height: 0%;
 }
 
 .toplanding h2 {
   color: white;
   font-family: Quantico;
-  font-size: 1.7vw;
-  line-height: 0%;
+  font-size: 1.7vmax;
 }
 
 .toplanding h3 {
   color: white;
   font-family: Quantico;
-  font-size: 4vw;
+  font-size: 4vmax;
   padding-top: 2%;
   padding-bottom: 3%;
 }
@@ -204,7 +215,22 @@ body {
 .toplanding h4 {
   color: white;
   font-family: Quantico;
-  font-size: 1.7vw;
+  font-size: 1.7vmax;
+}
+
+.toplanding button {
+  border: none;
+  background-color: #33ff33;
+  font-family: Quantico;
+  color: black;
+  border-radius: 20px;
+  font-size: 2vmax;
+  padding: 1.5% 2%;
+}
+
+.toplanding button:hover {
+  background-color: grey;
+  color: #33ff33;
 }
 
 .topnav {

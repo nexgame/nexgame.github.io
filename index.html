@@ -5,8 +5,25 @@
     <link rel="stylesheet" type="text/css" href="index.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="shortcut icon" href="img/logo.png" type="image/x-icon">
+    <script language="javascript">
+      function startup(){
+        if (window.innerWidth < 1000){
+          document.getElementById("toplanding").style.backgroundImage='url(img/gaming-on-phone-grey-comp_mobile.jpg)';
+          document.getElementById("whynexgame").style.backgroundImage='url(img/keyboard-comp_mobile.jpg)';
+          document.getElementById("howdoesitwork").style.backgroundImage='url("img/laptop and phone-comp_mobile.jpeg")';
+          document.getElementById("leftpadding").style.width='30%';
+          document.getElementById("textwithimage").style.width='65%';
+        }
+        else {
+          document.getElementById("toplanding").style.backgroundImage='url(img/gaming-on-phone-grey-comp.jpg)';
+          document.getElementById("whynexgame").style.backgroundImage='url(img/keyboard-comp.jpg)';
+          document.getElementById("howdoesitwork").style.backgroundImage='url("img/laptop and phone-comp.jpeg")';
+        }
+        writeText();
+      }
+    </script>
   </head>
-  <body onload=writeText();>
+  <body onload=startup();>
     <div class="topnav" id="myTopnav">
       <a href="index.html" class="logo">NexGame</a>
       <div class="topnav-right">
@@ -20,7 +37,7 @@
       </a>
       <script src="navbar.js"></script>
     </div>
-    <div class="toplanding">
+    <div class="toplanding" id="toplanding">
         <h1 id="nexgame">NexGame</h1>
         <h2 id="tagLine">Device-To-Device Video Game Streaming</h2>
         <h3 id="mainTag">Play PC Games on Your Phone or Tablet</h3>
@@ -28,42 +45,24 @@
         <h4 id="typedTitle"></h4>
         <script src="write-text.js"></script>
     </div>
-    <div class="whynexgame">
+    <div class="whynexgame" id="whynexgame">
       <h1 id="title">Why NexGame?</h1>
-      <div class="smalltable">
         <h2>Play on Any Device, from Anywhere</h2>
         <p>NexGame works from anywhere with a strong internet connection.</p>
         <p>We securely connect your devices over the internet, so you can play your favorite games from wherever you are.<p>
-      </div>
-      <div class="largetable">
-        <img src="img/connection.png" class="fullsize" alt="Phone">
-      </div>
-      <div class="smalltable">
+
         <h2>Bring Your Own Games</h2>
-        <p>Already own a game?<br>You can play it on NexGame.
+        <p>Already own a game? You can play it on NexGame.</p>
         <p>We integrate with the most common game platforms, so you can play these games across all of your devices.</p>
-      </div>
-      <div class="largetable">
-        <img src="img/blizzard-logo.png" class="logo" alt="Origin">
-        <img src="img/steam-logo.JPG" class="logo" alt="Steam">
-        <img src="img/ea-origin-logo.png" class="logo" alt="Origin">
-        <img src="img/Epic-Games-White-Solid.png" class="logo" alt="Epic Games">
-      </div>
-      <div class="smalltable">
+
         <h2>PC Performance on Mobile</h2>
-        <p>Play your favorite PC games<br> on your phone or tablet.</p>
-        <p>Our patent-pending technology minimizes latencty to give you<br> a PC-like gaming experience.</p>
-      </div>
-      <div class="largetable">
-        <br><br>
-        <img src="img/phone-performance.jpg" class="small" alt="Phone">
-        <img src="img/laptop-performance.png" class="small" alt="Laptop">
-      </div>
+        <p>Play your favorite PC games on your phone or tablet.</p>
+        <p>Our patent-pending technology minimizes latencty to give you a PC-like gaming experience.</p>
     </div>
-    <div class="howdoesitwork">
+    <div class="howdoesitwork" id="howdoesitwork">
       <h1>How does NexGame work?</h1>
-      <div class="textwithimage"></div>
-      <div class="textwithimage">
+      <div class="leftpadding" id=leftpadding></div>
+      <div class="textwithimage" id="textwithimage">
         <h2>Device-To-Device<br>Video Game Streaming</h2>
         <p>NexGame streams games from your computer to your mobile device. This means that you can play your favorite PC games wherever you have a good internet connection.</p>
         <button onclick="location.href='signup.html'" class="signup">Join the FREE Open Beta</button><br><br><br>
