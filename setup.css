@@ -138,12 +138,12 @@ body {
 }
 
 .specs ul {
-  padding-left: 5%;
+  padding-left: 13%;
   padding-bottom: 1%
 }
 
 .specs ul.inner {
-  padding-left: 3%;
+  padding-left: 2%;
 }
 
 .specs ol {
@@ -152,7 +152,7 @@ body {
 }
 
 .table {
-  width: 38%;
+  width: 40%;
   padding: 1% 1%;
   display: inline-block;
   vertical-align: top;

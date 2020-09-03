@@ -80,7 +80,7 @@ body {
 }
 
 .register {
-  width: 100%;
+  width: 80%;
   margin: auto;
   background-color: #181818;
   vertical-align: center;
@@ -92,14 +92,14 @@ body {
 .register h1 {
     color: #33ff33;
     font-family: Audiowide;
-    font-size: 6vh;
+    font-size: 6vmin;
     text-align: center;
 }
 
 .register h2 {
     color: white;
     font-family: Space Mono;
-    font-size: 4vh;
+    font-size: 4.5vmin;
     text-align: center;
 }
 
@@ -113,31 +113,31 @@ body {
 .register h4 {
     color: white;
     font-family: Space Mono;
-    font-size: 2vh;
+    font-size: 2.5vmin;
     text-align: center;
 }
 
 .register p {
   color: white;
   font-family: Space Mono;
-  font-size: 0.5vw;
+  font-size: 0.5vmax;
   text-align: center;
   padding-bottom: 1%;
 }
 
 .register label{
   text-align: left;
-  padding: 0% 30%;
-  font-size: 2.5vh;
+  padding: 0% 20%;
+  font-size: 2vmax;
   font-family: Space Mono;
   color: white;
 }
 
 .register input {
-  width: 40%;
+  width: 60%;
   display: inline-block;
-  font-size: 2.5vh;
-  margin: 0% 30%;
+  font-size: 2vmax;
+  margin: 0% 20%;
 }
 
 .register button {
