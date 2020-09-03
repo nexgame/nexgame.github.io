@@ -10,7 +10,7 @@ body {
   overflow: hidden;
   background-color: black;
   width: 100%;
-  margin: auto;
+  margin-bottom: 1px;
 }
 
 .topnav a {
@@ -20,7 +20,8 @@ body {
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-  font-size: 18px;
+  font-family: Quantico;
+  font-size: 1.2vmax;
 }
 
 .topnav a:hover {
@@ -31,7 +32,7 @@ body {
 .topnav a.logo {
   color: #00ff00;
   font-family: Audiowide;
-  font-size:26px;
+  font-size: 1.7vmax;
   padding: 8px 20px;
 }
 
