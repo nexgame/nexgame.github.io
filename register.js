@@ -51,6 +51,8 @@ async function sendPostRequest(){
   }
   if (json.status === "OK"){
     document.getElementById("response").innerHTML = "SUCCESS! Welcome to NexGame.";
+    await sleep(1000);
+    window.location.href = "download.html";
     return 0;
   }
 }
