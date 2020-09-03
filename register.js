@@ -52,6 +52,8 @@ async function sendPostRequest(){
   if (json.status === "OK"){
     document.getElementById("response").innerHTML = "SUCCESS! Welcome to NexGame.";
     await sleep(1000);
+    document.getElementById("response").innerHTML = "Redirecting to download page...";
+    await sleep(1000);
     window.location.href = "download.html";
     return 0;
   }
@@ -59,4 +61,8 @@ async function sendPostRequest(){
 
 function sendRegisterRequest(){
   sendPostRequest();
+}
+
+function sleep(ms) {
+  return new Promise(resolve => setTimeout(resolve, ms));
 }
