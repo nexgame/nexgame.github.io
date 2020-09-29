@@ -201,15 +201,15 @@ body {
 .toplanding h2 {
   color: white;
   font-family: Quantico;
-  font-size: 1.7vmax;
+  font-size: 2vmax;
 }
 
 .toplanding h3 {
   color: white;
   font-family: Quantico;
   font-size: 4vmax;
-  padding-top: 2%;
-  padding-bottom: 3%;
+  padding-top: 1%;
+  padding-bottom: 2%;
 }
 
 .toplanding h4 {
