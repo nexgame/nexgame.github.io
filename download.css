@@ -100,6 +100,15 @@ body {
   text-align: center;
 }
 
+.windowsfull {
+  width: 98%;
+  display: inline-block;
+  background-color: #0d0d0d;
+  vertical-align: center;
+  padding-top: 1%;
+  text-align: center;
+}
+
 .comingsoon h1 {
     color: #33ff33;
     font-family: Audiowide;
